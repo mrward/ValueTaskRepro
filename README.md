@@ -8,6 +8,13 @@ Reproduction for the following ValueTask error:
 2. Open ValueTaskRepro.sln in Visual Studio Mac (Beta Channel)
 3. Build ValueTaskRepro.iOS or ValueTaskRepro.Droid
 
+## Available Workaround
+1. Install the current Visual Studio Mac Stable Channel release, as of 0340 28 March 2018 
+2. Open ValueTaskRepro.sln in Visual Studio Mac (Stable Channel)
+3. Install [System.Threading.Tasks.Extensions NuGet Package](https://www.nuget.org/packages/System.Threading.Tasks.Extensions/) into the ValueTaskRepro.iOS project
+4. Install [System.Threading.Tasks.Extensions NuGet Package](https://www.nuget.org/packages/System.Threading.Tasks.Extensions/) into the ValueTaskRepro.Droid project
+5. Build ValueTaskRepro.iOS or ValueTaskRepro.Droid
+
 ## Environment
 
 === Visual Studio Enterprise 2017 for Mac (Preview) ===
